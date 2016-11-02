@@ -1,8 +1,18 @@
+/*
+ * 02.cpp
+ *
+ *  Created on: Nov 2, 2016
+ *      Author: robertwinke
+ */
+
+
+
+
 #include <iostream>
 
 using namespace std;
 
-/** 
+/**
  * Create a function that prints a multiplication table with a given base number
  * It should take the base number as a parameter, and print the output to the cout
  *
@@ -19,9 +29,19 @@ using namespace std;
  *   10 * 5 = 50
  */
 
+void multiTable(int number) {
+  for (int i = 1; i <= 10; i++){
+    cout << i << " * " << number << " = " << i*number << endl;
+  }
+}
 
 int main() {
+  int number;
+
+  cout << "Gimme a number to see its multiplication table" << endl;
+  cin >> number;
+
+  multiTable(number);
 
   return 0;
 }
-
