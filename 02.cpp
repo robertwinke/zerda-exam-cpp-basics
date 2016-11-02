@@ -5,14 +5,11 @@
  *      Author: robertwinke
  */
 
-
-
-
 #include <iostream>
 
 using namespace std;
 
-/**
+/*
  * Create a function that prints a multiplication table with a given base number
  * It should take the base number as a parameter, and print the output to the cout
  *
@@ -45,3 +42,4 @@ int main() {
 
   return 0;
 }
+

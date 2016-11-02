@@ -5,19 +5,17 @@
  *      Author: robertwinke
  */
 
-
-
 #include <iostream>
 
 using namespace std;
 
-/**
+/*
  * Create a function that decides if there is a bigger or equal number than a given number in an array
  * It should take the array, it's length and a number as a parameter, then return a boolean
  */
 
 bool isThere(int array[], int length, int number) {
-  for (int i = 0; i < length; i++){
+  for (int i = 0; i < length; i++) {
     if (array[i] >= number) {
       return true;
     }
@@ -41,5 +39,3 @@ int main() {
 
   return 0;
 }
-
-

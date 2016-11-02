@@ -5,8 +5,6 @@
  *      Author: robertwinke
  */
 
-
-
 #include <iostream>
 
 using namespace std;
@@ -23,6 +21,7 @@ int divisorCount(int number) {
       answer += 1;
     }
   }
+
   return answer;
 }
 
@@ -35,5 +34,4 @@ int main() {
 
   return 0;
 }
-
 
